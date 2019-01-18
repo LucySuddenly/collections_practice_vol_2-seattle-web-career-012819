@@ -45,7 +45,18 @@ def count_elements(hash)
 end
 
 def merge_data(keys, data)
-  
+  array = []
+  keys.each do |first_name|
+    name = first_name[:first_name]
+    data.each do |person_info, values|
+      if person_info[name] 
+         new_person = person_info[name]
+         new_person[:first_name] = name
+         array << new_person
+      end 
+    end 
+  end
+  array
 end
 
 
