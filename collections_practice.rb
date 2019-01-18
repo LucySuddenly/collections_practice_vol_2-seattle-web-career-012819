@@ -23,12 +23,13 @@ def first_wa(array)
 end
 
 def remove_non_strings(array)
+  new_array = []
   array.each do |element|
     if element.is_a?(String)
-      array.delete(element)
+      new_array << element
     end
   end
-  array
+  new_array
 end
 
 
