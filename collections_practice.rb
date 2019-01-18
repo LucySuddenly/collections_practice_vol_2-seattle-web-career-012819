@@ -44,7 +44,7 @@ def count_elements(hash)
   end.uniq
 end
 
-def merge_data
+def merge_data(keys, data)
   
 end
 
