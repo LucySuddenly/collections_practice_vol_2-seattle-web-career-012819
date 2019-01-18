@@ -22,7 +22,13 @@ def first_wa(array)
   end
 end
 
-
+def remove_non_strings(array)
+  array.each do |element|
+    if element.is_a?(String)
+      
+    end
+  end
+end
 
 
 
