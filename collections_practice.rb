@@ -1,5 +1,5 @@
 def begins_with_r(array)
   array.all? do |element|
-    element.starts_with?("r")
+    element.start_with?("r")
   end
 end
