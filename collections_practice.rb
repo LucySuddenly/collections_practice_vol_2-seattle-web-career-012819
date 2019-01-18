@@ -11,4 +11,5 @@ def contain_a(array)
       new_array << element
     end
   end
+  new_array
 end 
