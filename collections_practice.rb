@@ -6,6 +6,6 @@ end
 
 def contain_a(array)
   array.all? do |element|
-    element.contain_a("a")
+    element.include?("a")
   end
 end 
