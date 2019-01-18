@@ -32,6 +32,10 @@ def remove_non_strings(array)
   new_array
 end
 
+def count_elements(array)
+
+end
+
 
 
 
