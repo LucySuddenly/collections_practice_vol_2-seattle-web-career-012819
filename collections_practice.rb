@@ -28,6 +28,7 @@ def remove_non_strings(array)
       array.delete(element)
     end
   end
+  array
 end
 
 
