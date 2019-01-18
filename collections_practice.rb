@@ -15,5 +15,17 @@ def contain_a(array)
 end 
 
 def first_wa(array)
-  
+  array.each do |element|
+    if element.include?("wa")
+      
+    end
+  end
 end
+
+
+
+
+
+
+
+
